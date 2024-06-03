@@ -588,11 +588,11 @@ span.color-cta {
   height: 92px;
 }
 
-.form-contact > input.input-message::placeholder {
-  position: absolute;
+/* .form-contact > input.input-message::placeholder {
+  position: relative;
   top: 10px;
   left: 5px;
-}
+} */
 /* Contact Section end */
 
 /* Footer Section start */
