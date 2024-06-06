@@ -40,9 +40,14 @@
     />
     <link href="css/colors/default.css" rel="stylesheet" id="color-opt" />
     <style>
+      .bg-light-ex {
+        background: #f6f3fc;
+      }
       .skills-animation {
         background: #f6f3fc;
-        transition: all 0.4s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        width: 150px;
+        height: 120px;
       }
       .skills-animation:hover {
         background-color: #2a1454;
@@ -53,32 +58,17 @@
       }
       .saturate-animation {
         filter: saturate(0);
-        transition: all 0.4s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+      @media screen and (max-width: 1200px) {
+        .skills-animation {
+          width: 130px;
+        }
       }
     </style>
   </head>
 
   <body>
-    <!-- Loader -->
-    <!-- <div id="preloader">
-      <div id="status">
-        <div class="logo">
-          <img
-            src="images/logo.png"
-            height="20"
-            class="d-block mx-auto"
-            alt=""
-          />
-        </div>
-        <div class="spinner">
-          <div class="bounce1"></div>
-          <div class="bounce2"></div>
-          <div class="bounce3"></div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Loader -->
-
     <!-- Navbar Start -->
     <nav
       id="navbar"
@@ -173,7 +163,7 @@
     <!-- Navbar End -->
 
     <!-- HOME START-->
-    <section class="bg-modern bg-light bg-animation-right" id="home">
+    <section class="bg-modern bg-light-ex bg-animation-right" id="home">
       <div class="container">
         <div
           class="row align-items-center position-relative"
@@ -246,221 +236,184 @@
         </div>
         <!--end row-->
 
-        <div class="row">
-          <div
-            class="skills-animation col-lg-3 col-md-3 col-sm-6 col-12 mt-4 pt-2 rounded"
-          >
-            <div class="p-3">
-              <div class="d-flex saturate-animation">
+        <div class="mt-2 row px-5 g-3">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-3 skills-animation rounded mx-auto d-flex">
+              <div class="m-auto saturate-animation">
                 <img
                   class="mx-auto"
-                  style="max-width: 77px"
+                  style="max-width: 45px"
+                  src="images/js.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center pt-1">Javascript</div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-3 skills-animation rounded mx-auto d-flex">
+              <div class="saturate-animation m-auto">
+                <img
+                  class="mx-auto"
+                  style="max-width: 45px"
+                  src="images/css-3.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center pt-1">CSS</div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-1 skills-animation rounded mx-auto d-flex">
+              <div class="saturate-animation m-auto">
+                <img
+                  class="mx-auto"
+                  style="max-width: 45px"
+                  src="images/html-1.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center pt-1">HTML5</div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-1 skills-animation rounded mx-auto">
+              <div class="d-flex saturate-animation pt-4">
+                <img
+                  class="mx-auto pt-4"
+                  style="max-width: 45px"
+                  src="images/mjml-by-mailjet.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center pt-1">MJML</div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-3 skills-animation rounded mx-auto d-flex">
+              <div class="m-auto saturate-animation">
+                <img
+                  class="mx-auto"
+                  style="max-width: 45px"
+                  src="images/shopify.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center pt-1">Shopify</div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-3 skills-animation rounded mx-auto d-flex">
+              <div class="m-auto saturate-animation">
+                <img
+                  class="mx-auto"
+                  style="max-width: 45px"
+                  src="images/react.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center pt-1">React</div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-3 skills-animation rounded mx-auto d-flex">
+              <div class="m-auto saturate-animation">
+                <img
+                  class="mx-auto"
+                  style="max-width: 45px"
+                  src="images/sass-1.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center pt-1">Sass</div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-3 skills-animation rounded mx-auto d-flex">
+              <div class="d-flex mx-auto saturate-animation">
+                <img
+                  class="mx-auto"
+                  style="max-width: 45px"
+                  src="images/wp.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center pt-1">Wordpress</div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-3 skills-animation rounded mx-auto d-flex">
+              <div class="m-auto saturate-animation">
+                <img
+                  class="mx-auto"
+                  style="max-width: 45px"
+                  src="images/nodejs-3.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center pt-1">Node</div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-3 skills-animation rounded mx-auto d-flex">
+              <div class="m-auto saturate-animation">
+                <img
+                  class="mx-auto"
+                  style="max-width: 45px"
                   src="images/figma.svg"
                   alt=""
                 />
               </div>
-              <div class="text-center pt-2">Figma</div>
             </div>
-            <!-- <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-solid fa-envelope fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">
-                    Email<br />
-                    Marketing
-                  </h6>
-                </div>
-              </div>
-            </div> -->
+            <div class="text-center pt-1">Figma</div>
           </div>
           <!--end col-->
 
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-solid fa-desktop fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">
-                    Content <br />
-                    Management
-                  </h6>
-                </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-3 skills-animation rounded mx-auto d-flex">
+              <div class="mx-auto d-flex saturate-animation">
+                <img
+                  class="mx-auto"
+                  style="max-width: 45px"
+                  src="images/sketch.svg"
+                  alt=""
+                />
               </div>
             </div>
+            <div class="text-center pt-1">Sketch</div>
           </div>
           <!--end col-->
 
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-brands fa-shopify fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">
-                    Shopify <br />
-                    Ecommerce
-                  </h6>
-                </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+            <div class="p-3 skills-animation rounded mx-auto d-flex">
+              <div class="d-flex mx-auto saturate-animation">
+                <img
+                  class="mx-auto"
+                  style="max-width: 45px"
+                  src="images/google-search-ads.svg"
+                  alt=""
+                />
               </div>
             </div>
-          </div>
-          <!--end col-->
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-solid fa-code fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">
-                    Web <br />
-                    Design
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--end col-->
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-brands fa-react fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">React JS</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--end col-->
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-brands fa-node-js fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">Node JS</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--end col-->
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-brands fa-wordpress fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">Wordpress</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--end col-->
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-brands fa-google fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">Google Ads</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--end col-->
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-brands fa-js fa-2xl text-primary"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">Javascript</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--end col-->
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-brands fa-sass fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">Sass</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--end col-->
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-brands fa-searchengin fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">SEO</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--end col-->
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
-            <div
-              class="interests-desc bg-light position-relative px-2 py-3 rounded"
-            >
-              <div class="hobbies d-flex align-items-center">
-                <div class="text-center rounded-pill me-4">
-                  <i class="fa-brands fa-figma fa-2xl"></i>
-                </div>
-                <div class="content">
-                  <h6 class="title mb-0">Figma framework</h6>
-                </div>
-              </div>
-            </div>
+            <div class="text-center pt-1">Wordpress</div>
           </div>
           <!--end col-->
         </div>
@@ -483,21 +436,24 @@
             <div class="section-title mb-0 ms-lg-5 ms-md-3">
               <h4 class="title text-primary mb-3">Joel Infante</h4>
               <h6 class="designation mb-3">
-                I'm a Passionate <span class="text-primary">Web Designer</span>
+                I'm a Passionate <span class="text-primary">Web Developer</span>
               </h6>
               <p class="text-muted">
-                I am a dedicated developer based in Austin, TX, committed to
-                continuous learning and growth. Mastering new technologies and
-                creating websites are among my favorite hobbies. Solving
-                real-life problems through code and finding innovative solutions
-                that make a tangible difference excites me the most.
+                Hello! I'm Joel Infante, based in the vibrant city of Austin,
+                Texas. I'm passionate about spending quality time with my
+                daughter, especially enjoying our summer adventures at the local
+                water parks.
               </p>
               <p class="text-muted">
-                The most exciting part? Employing innovative solutions to turn
-                people's dreams into reality with code.
+                I find immense joy in solving problems through technology,
+                creating solutions that make people's lives easier. In addition
+                to coding, I'm a food enthusiast who loves exploring new
+                cuisines and flavors. Whether it's trying out a new restaurant
+                in Austin or experimenting with recipes at home, I'm always on a
+                culinary adventure.
               </p>
               <!-- <img src="images/sign.png" height="22" alt="" /> -->
-              <div class="mt-4">
+              <div class="my-5">
                 <a href="#projects" class="btn btn-primary mouse-down"
                   >View Portfolio</a
                 >
