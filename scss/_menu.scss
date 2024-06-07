@@ -9,7 +9,7 @@
   margin-bottom: 0px;
   transition: all 0.2s ease-in-out;
   .navbar-toggler {
-    color: $dark;
+    color: #ffffff;
     font-size: 30px;
     padding: 0px;
     box-shadow: none !important;
@@ -36,7 +36,7 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        color: $white;
+        color: $white !important;
         font-size: $menu-font;
         background-color: transparent !important;
         margin: 0 8px;
@@ -49,7 +49,7 @@
         &:hover,
         &.active,
         &:active {
-          color: $primary !important;
+          // color: #ffffff !important;
         }
       }
     }
@@ -104,12 +104,7 @@
     &.navbar-nav-link {
       .nav-item {
         .nav-link {
-          color: #606c38;
-          &:hover,
-          &.active,
-          &:active {
-            color: $primary;
-          }
+          color: #ffffff;
         }
       }
     }
@@ -181,7 +176,7 @@
           &:hover,
           &.active,
           &:active {
-            color: $primary !important;
+            color: black !important;
           }
         }
       }

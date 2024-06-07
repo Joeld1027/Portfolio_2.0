@@ -4,13 +4,10 @@
     <meta charset="utf-8" />
     <title>Joel Infante | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Premium Bootstrap 5 Landing Page Template"
-    />
+    <meta name="description" content="Joel Infante web developer portfolio" />
     <meta
       name="keywords"
-      content="Bootstrap 5, premium, marketing, multipurpose"
+      content="premiun, web developer, email marketing,content Managment"
     />
     <meta content="Shreethemes" name="author" />
     <!-- favicon -->
@@ -39,40 +36,14 @@
       id="theme-opt"
     />
     <link href="css/colors/default.css" rel="stylesheet" id="color-opt" />
-    <style>
-      .bg-light-ex {
-        background: #f6f3fc;
-      }
-      .skills-animation {
-        background: #f6f3fc;
-        transition: all 0.3s ease-in-out;
-        width: 150px;
-        height: 120px;
-      }
-      .skills-animation:hover {
-        background-color: #2a1454;
-        color: #f6f3fc;
-      }
-      .skills-animation:hover .saturate-animation {
-        filter: saturate(1);
-      }
-      .saturate-animation {
-        filter: saturate(0);
-        transition: all 0.3s ease-in-out;
-      }
-      @media screen and (max-width: 1200px) {
-        .skills-animation {
-          width: 130px;
-        }
-      }
-    </style>
+    <style></style>
   </head>
 
   <body>
     <!-- Navbar Start -->
     <nav
       id="navbar"
-      class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky"
+      class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light bg-dark-1 sticky mb-5"
     >
       <div class="container">
         <a class="navbar-brand" href="">
@@ -163,19 +134,21 @@
     <!-- Navbar End -->
 
     <!-- HOME START-->
-    <section class="bg-modern bg-light-ex bg-animation-right" id="home">
-      <div class="container">
-        <div
-          class="row align-items-center position-relative"
-          style="z-index: 1"
-        >
-          <div class="col-lg-7 col-md-7">
-            <div class="title-heading mt-5">
-              <h6 class="sub-title">Looking for a Developer?</h6>
-              <h1 class="heading text-primary mb-3">I'm Joel Infante</h1>
-              <p class="para-desc text-muted">
-                Bring your vision to life by overcoming web development
-                challenges creatively and precisely.
+    <section class="bg-modern background-ex-hero mt-5" id="home">
+      <div class="container my-5 pb-4">
+        <div class="row align-items-center position-relative">
+          <div class="col-lg-7 col-md-7" style="z-index: 8 !important">
+            <div class="title-heading my-5">
+              <h6 class="sub-title text-muted">I'm Joel D. Infante</h6>
+              <h1
+                class="heading text-white mb-3"
+                style="font-size: 3rem !important"
+              >
+                Crafting Tailored Web Solutions for Modern Challenges
+              </h1>
+              <p class="para-desc text-dark-custom" style="font-size: 1.4rem">
+                Designing websites that meet the demands of today’s digital
+                landscape.
               </p>
               <div class="mt-4 pt-2">
                 <a href="#contact" class="btn btn-primary rounded mb-2 me-2"
@@ -183,7 +156,8 @@
                 >
                 <a
                   href="javascript:void(0)"
-                  class="btn btn-outline-primary rounded mb-2"
+                  class="btn btn-primary rounded mb-2"
+                  style="z-index: 8"
                   >Download CV
                   <i data-feather="download" class="fea icon-sm"></i
                 ></a>
@@ -194,7 +168,11 @@
 
           <div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
             <div class="hero-img">
-              <img src="images/img_portrait.png" class="img-fluid" alt="" />
+              <img
+                src="images/img-self-1.png"
+                class="img-fluid mb-5 pb-5"
+                alt=""
+              />
             </div>
           </div>
           <!--end col-->
@@ -206,21 +184,27 @@
         href="#about"
         data-scroll-nav="1"
         class="mouse-icon d-none d-md-inline-block rounded-pill bg-transparent mouse-down"
+        style="z-index: 5"
       >
         <span class="wheel position-relative d-block mover"></span>
       </a>
+      <div class="wave wave-3"></div>
+      <div class="wave wave-2"></div>
+      <div class="wave wave-1"></div>
     </section>
     <!--end section-->
     <!-- HOME END-->
 
     <!-- About Start -->
-    <section class="section pb-3" id="about">
-      <div class="container mt-80 mt-60 mb-100">
+    <section class="section pb-5 my-5" id="about">
+      <div class="container mt-80 m-60 mb-100 pb-4">
         <div class="row justify-content-center">
           <div class="col-12 text-center">
             <div class="section-title">
               <div class="position-relative">
-                <h4 class="title text-uppercase mb-4">Skills & Expertise</h4>
+                <h4 class="title text-uppercase mb-4 text-primary-1">
+                  Skills & Expertise
+                </h4>
                 <div>
                   <div class="title-box"></div>
                   <div class="title-line"></div>
@@ -235,9 +219,21 @@
           <!--end col-->
         </div>
         <!--end row-->
-
-        <div class="mt-2 row px-5 g-3">
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+        <div>
+          <!-- <h4 class="text-center text-primary-1">My Skills</h4> -->
+          <ul class="d-flex justify-content-center flex-wrap">
+            <li class="skill-containers">Email Development</li>
+            <li class="skill-containers">Content Management</li>
+            <li class="skill-containers">Web Development</li>
+            <li class="skill-containers">SEO</li>
+            <li class="skill-containers">E-Commerce</li>
+          </ul>
+        </div>
+        <!-- <div>
+          <h4 class="text-center text-primary-1">Tools I use every day</h4>
+        </div> -->
+        <div class="mt-0 row px-0 g-3">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-3 skills-animation rounded mx-auto d-flex">
               <div class="m-auto saturate-animation">
                 <img
@@ -252,7 +248,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-3 skills-animation rounded mx-auto d-flex">
               <div class="saturate-animation m-auto">
                 <img
@@ -267,7 +263,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-1 skills-animation rounded mx-auto d-flex">
               <div class="saturate-animation m-auto">
                 <img
@@ -282,7 +278,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-1 skills-animation rounded mx-auto">
               <div class="d-flex saturate-animation pt-4">
                 <img
@@ -297,7 +293,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-3 skills-animation rounded mx-auto d-flex">
               <div class="m-auto saturate-animation">
                 <img
@@ -312,7 +308,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-3 skills-animation rounded mx-auto d-flex">
               <div class="m-auto saturate-animation">
                 <img
@@ -327,7 +323,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-3 skills-animation rounded mx-auto d-flex">
               <div class="m-auto saturate-animation">
                 <img
@@ -342,7 +338,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-3 skills-animation rounded mx-auto d-flex">
               <div class="d-flex mx-auto saturate-animation">
                 <img
@@ -357,7 +353,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-3 skills-animation rounded mx-auto d-flex">
               <div class="m-auto saturate-animation">
                 <img
@@ -372,7 +368,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-3 skills-animation rounded mx-auto d-flex">
               <div class="m-auto saturate-animation">
                 <img
@@ -387,7 +383,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-3 skills-animation rounded mx-auto d-flex">
               <div class="mx-auto d-flex saturate-animation">
                 <img
@@ -402,7 +398,7 @@
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 mt-1 pt-2">
             <div class="p-3 skills-animation rounded mx-auto d-flex">
               <div class="d-flex mx-auto saturate-animation">
                 <img
@@ -413,28 +409,28 @@
                 />
               </div>
             </div>
-            <div class="text-center pt-1">Wordpress</div>
+            <div class="text-center pt-1">Google Analytics</div>
           </div>
           <!--end col-->
         </div>
       </div>
       <!--end container-->
-      <div class="container mt-100 mt-60 pt-40">
+      <div class="container mt-100 pt-40">
         <div class="row align-items-center">
-          <!-- <div class="col-lg-5 col-md-5">
+          <div class="col-lg-5 col-md-5">
             <div class="about-hero">
               <img
-                src="images/hero.png"
+                src="images/Collage-2.png"
                 class="img-fluid mx-auto d-block about-tween position-relative"
                 alt=""
               />
             </div>
-          </div> -->
+          </div>
           <!--end col-->
 
-          <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0 mx-auto">
+          <div class="col-lg-7 col-md-7 mt-3 pt-2 mt-sm-0 pt-sm-0 mx-auto">
             <div class="section-title mb-0 ms-lg-5 ms-md-3">
-              <h4 class="title text-primary mb-3">Joel Infante</h4>
+              <h4 class="title text-primary-1 mb-3">About me</h4>
               <h6 class="designation mb-3">
                 I'm a Passionate <span class="text-primary">Web Developer</span>
               </h6>
@@ -445,17 +441,21 @@
                 water parks.
               </p>
               <p class="text-muted">
-                I find immense joy in solving problems through technology,
-                creating solutions that make people's lives easier. In addition
-                to coding, I'm a food enthusiast who loves exploring new
-                cuisines and flavors. Whether it's trying out a new restaurant
-                in Austin or experimenting with recipes at home, I'm always on a
-                culinary adventure.
+                As a dedicated coder, I find immense joy in solving problems
+                through technology, creating solutions that make people's lives
+                easier. In addition to coding, I'm a food enthusiast who loves
+                exploring new cuisines and flavors. Whether it's trying out a
+                new restaurant in Austin or experimenting with recipes at home,
+                I'm always on a culinary adventure.
+              </p>
+              <p class="text-muted">
+                Welcome to my world where family, technology, and a love for
+                great food come together!
               </p>
               <!-- <img src="images/sign.png" height="22" alt="" /> -->
               <div class="my-5">
-                <a href="#projects" class="btn btn-primary mouse-down"
-                  >View Portfolio</a
+                <a href="#contact" class="btn btn-primary mouse-down"
+                  >Contact me</a
                 >
               </div>
             </div>
@@ -469,13 +469,15 @@
     <!-- About end -->
 
     <!-- Projects End -->
-    <section class="section bg-light" id="projects">
+    <section class="section bg-light-ex" id="projects">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 text-center">
             <div class="section-title">
               <div class="position-relative">
-                <h4 class="title text-uppercase mb-4">My Portfolio</h4>
+                <h4 class="title text-uppercase mb-4 text-primary-1">
+                  My Portfolio
+                </h4>
                 <div>
                   <div class="title-box"></div>
                   <div class="title-line"></div>
@@ -509,21 +511,21 @@
                 </li>
                 <li
                   class="list-inline-item categories-name border text-dark px-3 rounded"
-                  data-group="branding"
+                  data-group="email"
                 >
-                  Branding
+                  Email Development
                 </li>
                 <li
                   class="list-inline-item categories-name border text-dark px-3 rounded"
-                  data-group="designing"
+                  data-group="landing page"
                 >
-                  Designing
+                  Landing Pages
                 </li>
                 <li
                   class="list-inline-item categories-name border text-dark px-3 rounded"
-                  data-group="photography"
+                  data-group="react"
                 >
-                  Photography
+                  React
                 </li>
                 <li
                   class="list-inline-item categories-name border text-dark px-3 rounded"
@@ -537,12 +539,11 @@
         </div> -->
         <!--end col-->
         <!--end row-->
-        <!-- Gallary -->
-        <!-- Gallary -->
-        <div id="grid" class="row bg-light">
+
+        <div class="row g-4 mb-5">
           <div
-            class="col-lg-4 col-md-6 mt-4 p-1 picture-item shadow"
-            data-groups='["photography"]'
+            class="card col-lg-6 col-md-6 col-sm-12 bg-transparent border-0"
+            data-groups="landing pages"
           >
             <a target="_blank" href="Diamond_Maids/index.html">
               <div
@@ -552,28 +553,28 @@
                   class="portfolio-box-img position-relative p-0 overflow-hidden"
                 >
                   <img
-                    class="item-container img-fluid mx-auto"
+                    class="item-container card-img-top mx-auto"
                     src="images/dm_1.html.png"
                     alt="1"
                   />
                 </div>
                 <div class="gallary-title py-4 text-center">
-                  <h5>
+                  <h5 class="text-primary-1">
                     <a
                       target="_blank"
                       href="Diamond_Maids/index.html"
-                      class="title text-primary"
+                      class="title text-primary-1"
                       >Diamond Maids</a
                     >
                   </h5>
-                  <span>Web Development</span>
+                  <span>Landing page</span>
                 </div>
               </div>
             </a>
           </div>
           <div
-            class="col-lg-4 col-md-6 mt-4 p-1 picture-item shadow"
-            data-groups='["photography"]'
+            class="card col-lg-6 col-md-6 col-xs-12 bg-transparent border-0"
+            data-groups="email"
           >
             <a target="_blank" href="email_project_1/index.html">
               <div
@@ -589,22 +590,24 @@
                   />
                 </div>
                 <div class="gallary-title py-4 text-center">
-                  <h5>
+                  <h5 class="text-primary-1">
                     <a
                       target="_blank"
                       href="email_project_1/index.html"
-                      class="title text-primary"
-                      >AlEssence Promotion</a
+                      class="title text-primary-1"
+                      >AlEssence</a
                     >
                   </h5>
-                  <span>Email Development</span>
+                  <span>Email development</span>
                 </div>
               </div>
             </a>
           </div>
+        </div>
+        <div class="row g-4 mb-5">
           <div
-            class="col-lg-4 col-md-6 mt-4 p-1 picture-item shadow1 bg-transparent"
-            data-groups='["photography"]'
+            class="card col-lg-6 col-md-6 col-sm-12 bg-transparent border-0"
+            data-groups="email"
           >
             <a target="_blank" href="email_project_1/index_3.html">
               <div
@@ -614,18 +617,18 @@
                   class="portfolio-box-img position-relative p-0 overflow-hidden"
                 >
                   <img
-                    class="item-container img-fluid mx-auto"
+                    class="item-container card-img-top mx-auto"
                     src="images/forest_test1.html.png"
                     alt="1"
                   />
                 </div>
                 <div class="gallary-title py-4 text-center">
-                  <h5>
+                  <h5 class="text-primary-1">
                     <a
                       target="_blank"
                       href="email_project_1/index_3.html"
-                      class="title text-primary"
-                      >Forest Land Newsletter</a
+                      class="title text-primary-1"
+                      >Forest Land</a
                     >
                   </h5>
                   <span>Email Development</span>
@@ -633,10 +636,9 @@
               </div>
             </a>
           </div>
-
           <div
-            class="col-lg-4 col-md-6 mt-4 p-1 picture-item shadow"
-            data-groups='["photography"]'
+            class="card col-lg-6 col-md-6 col-sm-12 bg-transparent border-0"
+            data-groups="email"
           >
             <a target="_blank" href="email_project_1/index_2.html">
               <div
@@ -652,22 +654,24 @@
                   />
                 </div>
                 <div class="gallary-title py-4 text-center">
-                  <h5>
+                  <h5 class="text-primary-1">
                     <a
                       target="_blank"
                       href="email_project_1/index_2.html"
-                      class="title text-primary"
-                      >MUPH Email Transaction</a
+                      class="title text-primary-1"
+                      >MUPH</a
                     >
                   </h5>
-                  <span>Email Development</span>
+                  <span>Email development</span>
                 </div>
               </div>
             </a>
           </div>
+        </div>
+        <div class="row g-4 mb-5">
           <div
-            class="col-lg-4 col-md-6 mt-4 p-1 picture-item shadow"
-            data-groups='["photography"]'
+            class="card col-lg-6 col-md-6 col-sm-12 bg-transparent border-0"
+            data-groups="react"
           >
             <a
               target="_blank"
@@ -680,21 +684,52 @@
                   class="portfolio-box-img position-relative p-0 overflow-hidden"
                 >
                   <img
-                    class="item-container img-fluid mx-auto"
+                    class="item-container card-img-top mx-auto"
                     src="images/sunset_1.png"
                     alt="1"
                   />
                 </div>
                 <div class="gallary-title py-4 text-center">
-                  <h5>
+                  <h5 class="text-primary-1">
                     <a
                       target="_blank"
                       href="https://ji-sunsethillchallenge.netlify.app/"
-                      class="title text-primary"
+                      class="title text-primary-1"
                       >Sunset Hill Challenge</a
                     >
                   </h5>
                   <span>React Development</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="card col-lg6 col-md-6 col-sm-12 bg-transparent border-0 d-none"
+            data-groups="email"
+          >
+            <a target="_blank" href="email_project_1/index_2.html">
+              <div
+                class="item-box portfolio-box p-0 rounded bg-white overflow-hidden"
+              >
+                <div
+                  class="portfolio-box-img position-relative p-0 overflow-hidden"
+                >
+                  <img
+                    class="item-container img-fluid mx-auto"
+                    src="images/muph_1.html.png"
+                    alt="1"
+                  />
+                </div>
+                <div class="gallary-title py-4 text-center">
+                  <h5 class="text-primary-1">
+                    <a
+                      target="_blank"
+                      href="email_project_1/index_2.html"
+                      class="title text-primary"
+                      >MUPH</a
+                    >
+                  </h5>
+                  <span>Email development</span>
                 </div>
               </div>
             </a>
@@ -713,7 +748,9 @@
           <div class="col-12 text-center">
             <div class="section-title">
               <div class="position-relative">
-                <h4 class="title text-uppercase mb-4">Contact Me</h4>
+                <h4 class="title text-uppercase mb-4 text-primary-1">
+                  Contact Me
+                </h4>
                 <div>
                   <div class="title-box"></div>
                   <div class="title-line"></div>
