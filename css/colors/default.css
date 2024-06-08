@@ -181,12 +181,24 @@ a.text-primary:focus {
 
 .wave-2 {
   background-image: url("/images/wave2.svg");
-  height: 38%;
+  height: 40%;
   z-index: 3;
 }
 
 .wave-3 {
   background-image: url("/images/wave3.svg");
-  height: 48%;
+  height: 50%;
   z-index: 2;
+}
+
+@media screen and (max-width: 700px) {
+  .wave-1 {
+    height: 28%;
+  }
+  .wave-2 {
+    height: 24%;
+  }
+  .wave-3 {
+    height: 28%;
+  }
 }
