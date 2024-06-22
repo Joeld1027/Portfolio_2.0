@@ -202,3 +202,7 @@ a.text-primary:focus {
     height: 28%;
   }
 }
+
+.card-height-ex {
+  max-height: 631px;
+}
